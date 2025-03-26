@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:20-alpine
 WORKDIR /app
 COPY package.json ./
 RUN git clone https://github.com/Parth2710/simple-app.git .
